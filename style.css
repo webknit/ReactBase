@@ -1,0 +1,38 @@
+.player {
+  overflow: hidden;
+}
+
+.player__name,
+.player__counter {
+  float: left;
+}
+
+.player__name {
+  width: 150px;
+}
+
+.player__counter {
+  margin-left: 1rem;
+}
+
+.player__minus,
+.player__score,
+.player__add,
+.player__delete{
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.player__minus,
+.player__add {
+  cursor: pointer;
+}
+
+.add-player {
+  clear: both;
+  display: block;
+}
+
+.stopwatch {
+  margin-top: 2rem;
+}
