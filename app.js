@@ -3,13 +3,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Components
-import Application from './components/Application';
+import HelloMessage from './components/Application';
 
-// S
-import './style.css';
+// Styles
+//import './style.scss'
 
 
 ReactDOM.render(
-  <Application title="The Scoreboard" initialPlayers={playerList} />,
+  <HelloMessage name="Shane" />,
   document.getElementById('app')
 );

@@ -1,3 +1,5 @@
+var HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = {
 	entry: './app.js',
 
@@ -12,6 +14,11 @@ module.exports = {
 				test: /\.js$/,
 				exclude: /node_modules/,
 				loaders: ['react-hot', 'babel-loader']
+			},
+			{
+				test: /\.scss$/,
+				exclude: /node_modules/,
+				loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
 			},
 			{
 				test: /\.css$/,
