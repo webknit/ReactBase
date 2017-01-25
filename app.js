@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import HelloMessage from './components/Application';
 
 // Styles
-//import './style.scss'
+import './style.scss'
 
 
 ReactDOM.render(

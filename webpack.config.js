@@ -20,10 +20,10 @@ module.exports = {
 				exclude: /node_modules/,
 				loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
 			},
-			{
-				test: /\.css$/,
-				loader: 'style-loader!css-loader'
-			}
+			// {
+			// 	test: /\.css$/,
+			// 	loader: 'style-loader!css-loader'
+			// }
 		]
 	}
 };
